@@ -1,3 +1,19 @@
+/*
+  Bubble sort!
+
+  Bubble sort works by comparing two adjacent numbers next to each other and then
+  swapping their places if the smaller index's value is larger than the larger
+  index's. Continue looping through until all values are in ascending order
+
+  Bubble Sort Complexities:
+    Time Complexity:
+      Best: O(n)
+      Average: O(n^2)
+      Worst: O(n^2)
+    Space Complexity:
+      Worst: O(1);
+*/
+
 const bubbleSort = (nums) => {
   let didSwap = false;
 
