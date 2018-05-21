@@ -33,6 +33,21 @@
   get    - function - accepts an index and returns the value at that position
   delete - function - accepts an index, removes value from list, collapses, 
                       and returns removed value
+
+  Array List Complexities:
+  Time Complexity:
+    Average:
+      Access: O(1)
+      Search: O(n)
+      Insertion: O(n)
+      Deletion: O(n)
+    Worst:
+      Access: O(1)
+      Search: O(n)
+      Insertion: O(n)
+      Deletion: O(n)
+  Space Complexity:
+    Worst: O(n)
 */
 
 class ArrayList {
